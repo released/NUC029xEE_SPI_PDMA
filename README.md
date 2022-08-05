@@ -10,7 +10,7 @@ update @ 2022/08/05
 
 3. SPI1 auto send data per 1 sec , use terminal to send SPI0 data manually
 
-4. 
+4. LA waveform channel order : SPI0 CS , CLK , MISO , MOSI , SPI1 CS , CLK , MISO , MOSI
 
 below is SPI1 regular data output per 1 sec ,
 
