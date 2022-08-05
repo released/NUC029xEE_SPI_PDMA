@@ -10,7 +10,13 @@ update @ 2022/08/05
 
 3. SPI1 auto send data per 1 sec , use terminal to send SPI0 data manually
 
-4. press digit 1 , SPI0 waveform as below 
+4. 
+
+below is SPI1 regular data output per 1 sec ,
+
+![image](https://github.com/released/NUC029xEE_SPI_PDMA/blob/main/1000ms_SPI1.jpg)	
+
+press digit 1 , SPI0 waveform as below 
 
 ![image](https://github.com/released/NUC029xEE_SPI_PDMA/blob/main/digit_1_transmit_normal.jpg)	
 
@@ -28,10 +34,10 @@ press digit 4 , will send SPI0 data , without PDMA
 
 if Enable define : ENABLE_AUTO_SS , below is press digit 1 , SPI0 waveform as below 
 
-![image](https://github.com/released/NUC029xEE_SPI_PDMA/blob/main/digit_4_transmit_nonPDMA.jpg)	
+![image](https://github.com/released/NUC029xEE_SPI_PDMA/blob/main/ENABLE_AUTO_SS_digit_1_transmit_normal.jpg)	
 
 if Enable define : ENABLE_AUTO_SS , below is SPI1 data
 
-![image](https://github.com/released/NUC029xEE_SPI_PDMA/blob/main/digit_4_transmit_nonPDMA.jpg)	
+![image](https://github.com/released/NUC029xEE_SPI_PDMA/blob/main/ENABLE_AUTO_SS_1000ms_SPI1.jpg)	
 
 
